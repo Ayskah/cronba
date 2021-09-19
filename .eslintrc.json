@@ -1,0 +1,22 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "jest": true
+    },
+    "extends": [
+        "plugin:vue/essential",
+        "airbnb-base"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "vue"
+    ],
+    "rules": {
+        "prefer-template": "error",
+        "max-len":["error", { "code": 120, "tabWidth": 4 }]
+    }
+}
